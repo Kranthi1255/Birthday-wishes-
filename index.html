@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Life (Archana)</title>
+    <title>A Cinematic Birthday Surprise | For Someone Special</title>
     <!-- High-End Typography -->
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,900&display=swap"
@@ -126,7 +126,8 @@
         }
 
         .hero-title {
-            font-family: 'Playfair Display', serif;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
             font-size: clamp(2.5rem, 8vw, 5.5rem);
             font-weight: 900;
             font-style: italic;
@@ -146,7 +147,7 @@
 
         .hero-sub {
             font-size: 1.3rem;
-            letter-spacing: 6px;
+            letter-spacing: 2px;
             text-transform: uppercase;
             color: rgba(255, 255, 255, 0.6);
             margin-bottom: 3rem;
@@ -555,7 +556,7 @@
             style="position: absolute; width: 100%; height: 100%; top:0; left:0; pointer-events: none;"></div>
         <h1 class="hero-title">Happy Birthday, Archana</h1>
         <p class="hero-sub">Just For You</p>
-        <button class="btn-neon" onclick="transitionTo('message-slider-page')">Open Your Gift (Archu)</button>
+        <button class="btn-neon" onclick="transitionTo('message-slider-page')">Open Your Gift (Sita)</button>
     </section>
 
     <!-- MESSAGE SLIDER SECTION -->
@@ -634,7 +635,7 @@
         <div class="gallery-grid">
             <!-- Memory 1 -->
             <div class="memory-card">
-                <img src="Pics/world beatuful.jpg" alt="Memory"
+                <img src="/pics/world beatuful.jpg" alt="Memory"
                     class="memory-image">
                 <div class="memory-hover-overlay">
                     <p class="hover-message">You make my world beautiful ❤️</p>
@@ -642,7 +643,7 @@
             </div>
             <!-- Memory 2 -->
             <div class="memory-card">
-                <img src="Pics/memories forever.png" alt="Memory"
+                <img src="/pics/memories forever.png" alt="Memory"
                     class="memory-image">
                 <div class="memory-hover-overlay">
                     <p class="hover-message">Our memories are forever ✨</p>
@@ -650,7 +651,7 @@
             </div>
             <!-- Memory 3 -->
             <div class="memory-card">
-                <img src="Pics/fav smile.jpeg" alt="Memory"
+                <img src="/pics/fav smile.jpeg" alt="Memory"
                     class="memory-image">
                 <div class="memory-hover-overlay">
                     <p class="hover-message">My favorite smile in the world 💖</p>
@@ -658,7 +659,7 @@
             </div>
             <!-- Memory 4 -->
             <div class="memory-card">
-                <img src="Pics/is a gift.jpeg" alt="Memory"
+                <img src="/pics/is a gift.jpeg" alt="Memory"
                     class="memory-image">
                 <div class="memory-hover-overlay">
                     <p class="hover-message">Every second with you is a gift 🎁</p>
@@ -666,7 +667,7 @@
             </div>
             <!-- Memory 5 -->
             <div class="memory-card">
-                <img src="Pics/adventures.png" alt="Memory" 
+                <img src="/pics/adventures.png" alt="Memory" 
                     class="memory-image">
                 <div class="memory-hover-overlay">
                     <p class="hover-message">To many more adventures together 🥂</p>
@@ -674,7 +675,7 @@
             </div>
             <!-- Memory 6 -->
             <div class="memory-card">
-                <img src="Pics/alvays.png" alt="Memory"
+                <img src="/pics/alvays.png" alt="Memory"
                     class="memory-image">
                 <div class="memory-hover-overlay">
                     <p class="hover-message">Always & Forever 🌹</p>
@@ -687,7 +688,7 @@
     </section>
 
     <audio id="birthday-audio" loop>
-        <source src="Arere Yekkada-SenSongsMp3.Co.mp3" type="audio/mpeg">
+        <source src="/Arere Yekkada-SenSongsMp3.Co.mp3" type="audio/mpeg">
     </audio>
 
     <script>
@@ -762,7 +763,7 @@
             } else if (celebStep === 3) {
                 spawnBalloons(document.body);
                 hint.innerText = "Almost there...";
-                btn.innerText = "✨ Show The Message";
+                btn.innerText = "✨ Aagu Koncham (Image Pina click chey)";
                 celebStep = 4;
             } else {
                 transitionTo('curtain-page');
